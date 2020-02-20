@@ -1,0 +1,16 @@
+img{
+    max-width: 500px;
+    min-width: 400px;
+    margin: 10px;
+    transition: 1s;
+    filter: grayscale(100);
+
+}
+.gallery{
+    margin: 40px;
+}
+img:hover{
+
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
